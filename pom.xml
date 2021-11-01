@@ -40,7 +40,24 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.20</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.microsoft.azure.mysql.v2017_12_01/azure-mgmt-mysql -->
+		<dependency>
+			<groupId>com.microsoft.azure.mysql.v2017_12_01</groupId>
+			<artifactId>azure-mgmt-mysql</artifactId>
+			<version>1.0.0-beta-4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.microsoft.azure</groupId>
+			<artifactId>applicationinsights-spring-boot-starter</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.microsoft.azure</groupId>
+			<artifactId>applicationinsights-logging-logback</artifactId>
+			<version>2.3.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
