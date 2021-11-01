@@ -17,5 +17,10 @@ public class StudentController {
 	public String indexAzure() {
 		return "Greetings from Azure-Spring Boot!";
 	}
+	
+	@GetMapping("/cloud")
+	public String indexAzureCloud() {
+		return "Greetings from Azure Cloud";
+	}
 
 }
